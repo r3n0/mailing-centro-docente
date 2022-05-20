@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Centro docente</title>
+		<style>
+			* {
+				padding: 0;
+				margin: 0;
+				box-sizing: border-box;
+			}
+			body {
+				font-family: sans-serif;
+			}
+			h1,
+			h2 {
+				color: #555;
+				margin-bottom: 1rem;
+			}
+
+			p,
+			li {
+				margin-bottom: 1rem;
+				line-height: 1.5;
+				font-size: 0.9rem;
+				color: #000;
+			}
+
+			a {
+				text-decoration: none;
+				color: #078;
+			}
+
+			li {
+				margin-left: 1rem;
+			}
+
+			hr {
+				border: none;
+				border-bottom: 3px dotted #2bc;
+				margin-block: 1rem;
+			}
+			.main__container {
+				width: 100%;
+				padding: 0.5rem;
+			}
+			.main {
+				max-width: 40rem;
+				background-color: #eee;
+				padding: 1rem;
+				border-radius: 1rem;
+				margin: auto;
+			}
+
+			.main > .content {
+				margin-bottom: 3rem;
+			}
+			.titulo {
+				margin: 2rem;
+			}
+
+			.fecha {
+				color: #000;
+				font-weight: 700;
+				margin-bottom: 0;
+			}
+			.titulo * {
+				text-align: center;
+			}
+			.titulo .fecha {
+				font-size: 1.2rem;
+			}
+			.titulo .lugar {
+				font-size: 0.8rem;
+				font-weight: 800;
+				color: #777;
+			}
+			.titulo h1 {
+				margin-block: 2rem;
+				color: #078;
+				font-size: 2.2rem;
+				line-height: 1;
+			}
+			.bloque {
+				border-radius: 0.5rem;
+				margin-bottom: 2rem;
+				overflow: hidden;
+				box-shadow: 0 2px 5px 5px rgba(100 100 100 / 0.1);
+			}
+			.bloque > * {
+				background-color: #fff;
+				padding: 0.8rem;
+			}
+			.bloque.anterior header {
+				background-color: #7ab;
+			}
+			.bloque.próximo header {
+				background-color: #2bc;
+			}
+			.bloque header {
+				z-index: 2;
+				position: relative;
+			}
+			.bloque h2 {
+				color: #fff;
+			}
+			.bloque .content {
+				background-color: #fff;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="main__container">
+			<div class="main">
+				<header class="titulo">
+					<h1>Convocatoria Centro docente</h1>
+					<p class="fecha">Miércoles 25 de mayo del 2022</p>
+					<p class="lugar">Aula de posgrados - 16h00</p>
+				</header>
+				<hr />
+				<div class="content">
+					<p>Estimades docentes y estudiantes.</p>
+					<p>
+						Con un atento y cordial saludo convoco a ustedes a la
+						próxima reunión del Centro Docente que tendrá lugar el
+						próximo miércoles 25 de mayo a las 16:00 en el aula de
+						Posgrados de la Facultad de Artes.
+					</p>
+					<p>
+						Para su consideración se adjunta a continuación los
+						puntos tratados y acuerdos resueltos en le reunión
+						anterior del Centro Docente y los puntos a tratar en la
+						próxima reunión.
+					</p>
+				</div>
+
+				<div class="bloque anterior">
+					<header>
+						<h2>Conclusiones del Centro Docente Anterior</h2>
+						<p class="fecha">miércoles 18 de mayo</p>
+					</header>
+					<div class="content">
+						<ul>
+							<li>
+								Se coordinó el horario de examen interciclo.
+							</li>
+							<li>
+								Se acordó que los docentes no dictarán clases
+								durante la semana de exámenes interciclo con la
+								excepción de la materia de Motion Graphics a
+								cargo de Ismael Carpio.
+							</li>
+							<li>
+								Se compartió el borrador del PROCEDIMIENTO PARA
+								CONCURSO PÚBLICO DE MERECIMIENTOS Y OPOSICIÓN
+								PARA EL INGRESO DEL PERSONAL ACADÉMICO TITULAR
+								por medio de google docs para recopilar las
+								observaciones pertinentes y emitir un informe
+								conjunto como Centro Docente.
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="bloque próximo">
+					<header>
+						<h2>Orden del día del próximo Centro Docente</h2>
+					</header>
+					<div class="content">
+						<ul>
+							<li>Concursos de méritos y oposición.</li>
+							<li>
+								Rúbricas de evaluación de Trabajo de Integración
+								Curricular
+							</li>
+							<li>Otros</li>
+						</ul>
+					</div>
+				</div>
+				<div class="despedida">
+					<p>
+						Si desean incluir un punto en el orden del día lo pueden
+						hacer respondiendo a este correo electrónico.
+					</p>
+					<p>Saludos cordiales.</p>
+					<hr />
+					<a href="mailto:rene.martínez@ucuenca.edu.ec"
+						><strong>René Martínez.</strong></a
+					>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
