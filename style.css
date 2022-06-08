@@ -128,3 +128,32 @@ hr {
 .despedida {
 	margin-bottom: 2rem;
 }
+.virual a {
+	display: block;
+	border: solid 2px #22bbcc;
+	color: #22bbcc;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.7rem 1.2rem;
+	color: 00ddff;
+	border-radius: 0.5rem;
+	font-weight: 800;
+	margin-top: 1rem;
+	transition: all 0.1s;
+	box-shadow: 0 0px 0px 0px rgba(0 0 0 / 0);
+}
+.virual a:hover {
+	transition: all 0.1s;
+	color: white;
+	border: solid 2px #22bbcc;
+
+	background-color: #22bbcc;
+	transform: translateY(-3px);
+	box-shadow: 0 3px 3px 3px rgba(0 0 0 / 0.1);
+}
+.virual a:active {
+	transition: all 0.1s;
+	transform: translateY(0px);
+	background-color: #007799;
+}
