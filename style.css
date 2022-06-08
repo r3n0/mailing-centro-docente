@@ -28,23 +28,41 @@ a {
 li {
 	margin-left: 1rem;
 }
+li::marker {
+	/* margin-left: 1rem; */
+	color: #22bbcc;
+}
+
+li li {
+	margin-bottom: 0;
+}
 
 hr {
 	border: none;
 	border-bottom: 3px dotted #22bbcc;
 	margin-bottom: 1rem;
 	margin-top: 1rem;
+	margin-left: -5rem;
+	margin-right: -5rem;
 }
 .main__container {
 	width: 100%;
 	padding: 0.5rem;
 }
 .main {
-	max-width: 40rem;
-	background-color: #eeeeee;
+	max-width: 50rem;
+	background-color: #f3f3f3;
 	padding: 1rem;
 	border-radius: 1rem;
 	margin: auto;
+	overflow: hidden;
+}
+.main-content {
+	max-width: 30rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
 }
 
 .main > .content {
