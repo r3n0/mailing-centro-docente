@@ -1,0 +1,182 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 5 versions
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	font-family: sans-serif;
+}
+h1,
+h2 {
+	color: #555555;
+	margin-bottom: 1rem;
+}
+
+p,
+li {
+	margin-bottom: 1rem;
+	line-height: 1.5;
+	font-size: 0.9rem;
+	color: #000000;
+}
+
+a {
+	text-decoration: none;
+	color: #007788;
+}
+
+li {
+	margin-left: 1rem;
+}
+li::marker {
+	/* margin-left: 1rem; */
+	color: #22bbcc;
+}
+
+li li {
+	margin-bottom: 0;
+}
+
+hr {
+	border: none;
+	border-bottom: 3px dotted #22bbcc;
+	margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-left: -5rem;
+	margin-right: -5rem;
+}
+.main__container {
+	width: 100%;
+	padding: 0.5rem;
+}
+.main {
+	max-width: 50rem;
+	background-color: #f3f3f3;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin: auto;
+	overflow: hidden;
+}
+.main-content {
+	max-width: 30rem;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+
+.main > .content {
+	margin-bottom: 3rem;
+}
+.titulo {
+	margin: 2rem;
+}
+
+.fecha {
+	color: #000000;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.titulo * {
+	text-align: center;
+}
+.titulo .fecha {
+	font-size: 1.2rem;
+}
+.titulo .lugar {
+	font-size: 0.8rem;
+	font-weight: 800;
+	color: #777777;
+}
+.titulo h1 {
+	margin-block: 2rem;
+	color: #007788;
+	font-size: 2.2rem;
+	line-height: 1;
+}
+.bloque {
+	border-radius: 0.5rem;
+	margin-bottom: 2rem;
+	overflow: hidden;
+	-webkit-box-shadow: 0 2px 5px 5px rgba(100 100 100 / 0.1);
+	box-shadow: 0 2px 5px 5px rgba(100 100 100 / 0.1);
+}
+.bloque > * {
+	background-color: #fff;
+	padding: 0.8rem;
+}
+.bloque.anterior header {
+	background-color: #77aabb;
+}
+.anterior .fecha {
+	color: #ffffff;
+	font-style: italic;
+	font-weight: 400;
+}
+.bloque.próximo header {
+	background-color: #22bbcc;
+}
+.bloque header {
+	z-index: 2;
+	position: relative;
+}
+.bloque h2 {
+	color: #ffffff;
+}
+.bloque .content {
+	background-color: #ffffff;
+}
+.despedida {
+	margin-bottom: 2rem;
+}
+.virual a {
+	display: block;
+	border: solid 2px #22bbcc;
+	color: #22bbcc;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0.7rem 1.2rem;
+	color: 00ddff;
+	border-radius: 0.5rem;
+	font-weight: 800;
+	margin-top: 1rem;
+	-webkit-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-box-shadow: 0 0px 0px 0px rgba(0 0 0 / 0);
+	box-shadow: 0 0px 0px 0px rgba(0 0 0 / 0);
+}
+.virual a:hover {
+	-webkit-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
+	color: white;
+	border: solid 2px #22bbcc;
+
+	background-color: #22bbcc;
+	-webkit-transform: translateY(-3px);
+	-ms-transform: translateY(-3px);
+	transform: translateY(-3px);
+	-webkit-box-shadow: 0 3px 3px 3px rgba(0 0 0 / 0.1);
+	box-shadow: 0 3px 3px 3px rgba(0 0 0 / 0.1);
+}
+.virual a:active {
+	-webkit-transition: all 0.1s;
+	-o-transition: all 0.1s;
+	transition: all 0.1s;
+	-webkit-transform: translateY(0px);
+	-ms-transform: translateY(0px);
+	transform: translateY(0px);
+	background-color: #007799;
+}
